@@ -23,19 +23,19 @@ Vue.use(Router)
           component: resolve => require(['@/components/main/index'], resolve)
         },
         {
-          path:"sort",
-          name: 'sort',
-          component: resolve => require(['@/components/main/sort'], resolve),
+          path:"search",
+          name: 'search',
+          component: resolve => require(['@/components/main/search'], resolve),
         },
         {
-          path:"cart",
-          name: 'cart',
-          component: resolve => require(['@/components/main/cart'], resolve)
+          path:"mv",
+          name: 'mv',
+          component: resolve => require(['@/components/main/mv'], resolve)
         },
         {
-          path:"item",
-          name: 'item',
-          component: resolve => require(['@/components/main/item'], resolve)
+          path:"user",
+          name: 'user',
+          component: resolve => require(['@/components/main/user'], resolve)
         },
         {
           path:"my",

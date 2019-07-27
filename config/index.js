@@ -6,7 +6,7 @@ const path = require('path')
 
 // https://m.bestcake.com/
 // https://m.bestcake.com/
-const URL = "https://m.bestcake.com";
+const URL = "http://musicapi.leanapp.cn";
 
 // const URL = "http://127.0.0.1";
 module.exports = {

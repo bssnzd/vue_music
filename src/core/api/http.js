@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseURL=location.host.indexOf(".com")!=-1?"":"/apis";
+const baseURL=location.host.indexOf(".cn")!=-1?"":"/apis";
 // const baseURL= location.host.indexOf("8899")!=-1?"/apis":"";
 // const baseURL="/apis";
 
